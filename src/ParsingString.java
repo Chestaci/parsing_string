@@ -127,45 +127,30 @@ public class ParsingString {
     }
 
     public static void main(String[] args) {
-//    parsingString("3[xyz]4[xy]z");
-//    parsingString("2[3[x]y]");
         parsingString("2[3[x]y]");
 // xxxyxxxy
-// xxxyxxxy
-///xxxyxxxy
+
         parsingString("3[xyz]2[x]");
 // xyzxyzxyzxx
-// xyzxyzxyzxx
-///xyzxyzxyzxx
+
         parsingString("3[xyz]4[xy]z");
 // xyzxyzxyzxyxyxyxyz
-// xyzxyzxyzxyxyxyxyz
-///xyzxyzxyzxyxyxyxyz
+
         parsingString("2[2[2[x]y]z]");
 // xxyxxyzxxyxxyz
-// xxyxxyzxxyxxyz
-///xxyxxyzxxyxxyz
+
         parsingString("2[3[x]y]3[xyz]2[x]3[xyz]4[xy]z");
 // xxxyxxxyxyzxyzxyzxxxyzxyzxyzxyxyxyxyz
-// xxxyxxxyxyzxyzxyzxxxyzxyzxyzxyxyxyxyz
-///xxxyxxxyxyzxyzxyzxxxyzxyzxyzxyxyxyxyz
+
         parsingString("e2[y2[x]t]a2[z]t");
 // eyxxtyxxtazzt
-// eyxxtyxxtazzt
-///eyxyxtyxyxtazzt
+
         parsingString("2[y2[x]t]");
 
 // yxxtyxxt
-// yxxtyxxt
-///yxyxtyxyxt
 
         parsingString("e2[2[y2[x]]z]q");
 // eyxxyxxzyxxyxxzq
-// eyxxyxxzyxxyxxzq
-///eyxxyxxzyxxyxxzq
-
-        parsingString("e2[2[y2[2[y2[2[y2[x]]zx]]zx]]z]q");
-        parsingString("2[3[2[x]]y]");
 
     }
 }
