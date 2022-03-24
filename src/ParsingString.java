@@ -127,6 +127,7 @@ public class ParsingString {
     }
 
     public static void main(String[] args) {
+
         parsingString("2[3[x]y]");
 // xxxyxxxy
 
